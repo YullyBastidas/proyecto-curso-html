@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons8-playa-32.ico">
+    <title>Mi lugar favorito</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+
+<body>
+    <header>
+        <h1>Archipiélago Los Roques</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cayos_populares.html">Cayos Populares</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor-formulario">
+       <form>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre" required minlength="3">
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="epellido" placeholder="Escribe aqui tu apellido" required minlength="3">
+        <label for="mail">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Escribe aqui tu email" required>
+        <label for="pais">País: </label>
+        <select name="pais" id="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Perú">Perú</option>
+            <option value="España">España</option>
+            <option value="Colombia">Colombia</option>
+            <option value="México">México</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Panama">Panama</option>
+            <option value="Ecuador">Ecuador</option>
+
+        </select>
+        <label for="comentario">Comentario: </label>
+        <textarea name="comentario" id="comentario" placeholder="Escribe un comentario"></textarea>
+
+        <label for="motivo">Motivo de contacto: </label>
+        <input type="radio" id="motivo" name="motivo"><i>Soy fans de la playa</i>
+        <input type="radio" id="motivo" name="motivo"><i>Quiero conocerlo</i>
+        <input type="radio" id="motivo" name="motivo"><i>Como viajo</i>
+        <input type="radio" id="motivo" name="motivo"><i>Reclamo</i>
+
+        <input type="submit" value="Enviar">
+
+       </form>
+    </div>
+
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
