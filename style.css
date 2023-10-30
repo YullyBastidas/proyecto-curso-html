@@ -1,6 +1,6 @@
 body {
-    font-family: "Lucida Console", "Courier New", monospace;
-    background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, rgb(153, 230, 165), rgb(255, 233, 236));
     padding: 0;
     margin: 0;
 }
@@ -34,14 +34,14 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #92a4ff;
+    background-color: #30a559;
 }
 
 h1 {
     background-color: black;
     padding: 10px;
     margin: 0;
-    color: #92a4ff;
+    color: #379757;
 }
 h2 {
     font-size: 24px;
@@ -106,7 +106,7 @@ div.des{
 p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .image {
@@ -114,6 +114,7 @@ p {
     margin: 0 0 20px 20px;
     max-width: 25%;
     height: auto;
+   
 }
 
 .image2 {
